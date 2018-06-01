@@ -9,21 +9,21 @@
 # Use the `runif()` function to pick random numbers between 40000 and 50000
 
 
-# Create a vector of 100 salaries in 2018 that have changed from 2017
-# Use `runif()` to add a random number between -5000 and 10000 to each of 2017's
-# salaries (the negative number means that a salary may have decreased!)
+# Create a vector of 100 annual salary adjustments between -5000 and 10000.
+# (A negative number represents a salary decrease due to corporate greed)
+# Again use the `runif()` function to pick 100 random numbers in that range.
 
 
-# Create a data frame 'salaries' by combining the 3 vectors you just made
+# Create a data frame `salaries` by combining the 3 vectors you just made
 # Remember to set `stringsAsFactors=FALSE`!
 
 
-# Create a column 'change' that stores each person's change in salary between
-# 2017 and 2018
+# Add a column to the `salaries` data frame that represents each person's
+# salary in 2018 (e.g., with the salary adjustment added in).
 
 
-# Create a column 'got_raise' that is TRUE if the person got a raise (their
-# salary went up)
+# Add a column to the `salaries` data frame that has a value of `TRUE` if the 
+# person got a raise (their salary went up)
 
 
 
@@ -31,7 +31,7 @@
 ### Note that you should get the value as specific as possible (e.g., a single
 ### cell rather than the whole row!)
 
-# What was the 2018 salary of employee 57
+# What was the 2018 salary of Employee 57
 
 
 # How many employees got a raise?
