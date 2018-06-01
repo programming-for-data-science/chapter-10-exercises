@@ -22,7 +22,7 @@ salaries <- data.frame(employees, salaries_2017, salary_adjustments, stringsAsFa
 # salary in 2018 (e.g., with the salary adjustment added in).
 salaries$salaries_2018 <- salaries$salaries_2017 + salaries$salary_adjustments
 
-# Add a column to the `salaries` data frame that has a value of `TRUE` if the 
+# Add a column to the `salaries` data frame that has a value of `TRUE` if the
 # person got a raise (their salary went up)
 salaries$got_raise <- salaries$salaries_2018 > salaries$salaries_2017
 
@@ -55,8 +55,8 @@ avg_increase <- mean(salaries$salary_adjustments)
 # For people who did not get a raise, how much money did they lose on average?
 avg_loss <- mean(salaries$salary_adjustments[salaries$got_raise == FALSE])
 
-## Consider: do the above averages match what you expected them to be based on 
+## Consider: do the above averages match what you expected them to be based on
 ## how you generated the salaries?
 
 # Write a .csv file of your salary data to your working directory
-write.csv(salaries, 'salaries.csv')
+write.csv(salaries, "salaries.csv")
